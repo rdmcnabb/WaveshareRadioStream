@@ -64,8 +64,8 @@ String stations[NUM_STATIONS] = {
 // --- State ---
 Audio audio;
 WiFiMulti wifiMulti;
-String ssid     = "YOUR_SSID";
-String password  = "YOUR_PASSWORD";
+String ssid     = "YOUR_SSID";       // <-- Edit with your WiFi SSID
+String password  = "YOUR_PASSWORD";  // <-- Edit with your WiFi password
 
 String songPlaying = "";
 long   bitrate     = 0;
